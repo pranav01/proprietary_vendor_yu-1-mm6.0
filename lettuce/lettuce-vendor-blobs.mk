@@ -25,7 +25,7 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
-    vendor/yu/lettuce/proprietary/bin/adsprpcd:system/bin/adsprpcd \                                                             
+    vendor/yu/lettuce/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/yu/lettuce/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/yu/lettuce/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/yu/lettuce/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
